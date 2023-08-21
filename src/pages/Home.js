@@ -24,13 +24,13 @@ class Home extends React.Component {
         <div className="d-flex flex-column min-vh-100">
           <div className="container-xl flex-grow-1">
             <div className="row my-5">
-              <h1 className="font-weight-light">
-                Hi, my name is Andrew Liu. aAsk my chatbot to help answer
-                questions about me. Feel free to type in some questions you may
-                have.
-              </h1>
+              <h1 className="font-weight-light">Hi, I'm Andrew Liu.</h1>
+              <p className="my-3">
+                Ask my chatbot to help answer questions about me. Feel free to
+                type in some questions you may have.
+              </p>
               <form>
-                <div className="my-5">
+                <div>
                   <textarea
                     className="form-control"
                     id="userInput"
