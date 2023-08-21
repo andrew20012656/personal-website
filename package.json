@@ -44,7 +44,7 @@
     ]
   },
   "proxy": "http://127.0.0.1:5000",
-  "homepage": "https://andrew20012656.github.io/pw-2023-2",
+  "homepage": "https://andrew20012656.github.io/personal-website",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
