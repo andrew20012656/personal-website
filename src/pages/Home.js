@@ -26,7 +26,7 @@ class Home extends React.Component {
             <div className="row my-5">
               <h1 className="font-weight-light">Hi, my name is Andrew Liu.</h1>
               <p>
-                Hi Hi Hi Ask my chatbot to help answer questions about me. Feel free to
+                Ask my chatbot to help answer questions about me. Feel free to
                 type in some questions you may have.
               </p>
               <form>
