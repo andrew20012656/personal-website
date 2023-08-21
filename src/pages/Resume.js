@@ -28,6 +28,7 @@ const Resume = () => {
     {
       title: "May 2022 - Aug 2022",
       cardTitle: "MetLife",
+      url: "https://www.metlife.com/",
       cardSubtitle: "Actuarial Intern",
       cardDetailedText: [
         "-  Actively contributed in the preparation of Insurance Risk Required Economic Capital (REC) report used for enterprise-level management decisions \n",
@@ -38,14 +39,16 @@ const Resume = () => {
     {
       title: "Jun 2023 - Aug 2023",
       cardTitle: "Wind",
+      url: "https://www.wind.com.cn/",
       cardSubtitle: "Java Developer Intern",
       cardDetailedText: [],
     },
     {
       title: "Aug 2023",
       cardTitle: "Cornell University",
-      cardSubtitle: "M.Eng Computer Science",
-      cardDetailedText: ["paragraph1", "paragraph2"],
+      url: "https://www.cornell.edu/",
+      cardSubtitle: "Graduate",
+      cardDetailedText: "M.Eng Computer Science",
     },
   ];
 
