@@ -24,7 +24,7 @@ class Home extends React.Component {
       body: JSON.stringify({ prompt: this.state.inputText }),
     });
 
-    console.log(response.body)
+    console.log(response.body.text)
 
     if (response.ok) {
       const responseData = await response.json();
