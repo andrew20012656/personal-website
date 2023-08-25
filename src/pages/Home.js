@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 class Home extends React.Component {
   constructor(props) {
@@ -44,6 +45,11 @@ class Home extends React.Component {
   }
 
   render() {
+    var typewriter = new Typewriter(null, {
+      loop: true,
+      delay: 75,
+    });
+
     return (
       <div className="home container-sm">
         <div className="d-flex flex-column min-vh-100">
@@ -84,10 +90,17 @@ class Home extends React.Component {
                     style={{ backgroundColor: "#f5f5f5" }}
                   >
                     <p>
-                      <b>You:</b> {entry.user}
+                      <b>You:</b>
+                      <p>{entry.user}</p>
                     </p>
                     <p>
-                      <b>Andrew:</b> {entry.response}
+                      <b>Andrew:</b>
+                      <Typewriter
+                        options={{ delay: 30 }}
+                        onInit={(typewriter) => {
+                          typewriter.typeString(entry.response).start();
+                        }}
+                      />
                     </p>
                   </div>
                 ))}
