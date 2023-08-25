@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 
-function Contact() {
+const Project = () => {
   return (
-    <div className="contact d-flex flex-column min-vh-100">
-      <div className="container-xl">
+    <div className="contact container-sm">
+      <div className="d-flex flex-column min-vh-100">
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light">About</h1>
           <p className="my-4">
-            The project list is to be updated. Thank you.
+            The project list is to be updated.
           </p>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Contact;
+export default Project;
