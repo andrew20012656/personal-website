@@ -41,7 +41,11 @@ const Resume = () => {
       cardTitle: "Wind",
       url: "https://www.wind.com.cn/",
       cardSubtitle: "Java Developer Intern",
-      cardDetailedText: [],
+      cardDetailedText: [
+        '-  Contributed to the Big Data team as a Java developer, aiding backend development for the internal "Big Data Decision Platform"',
+        "-  Employed MyBatis for data retrieval in the persistence layer and SpringBoot for efficient interface scheduling in the controller layer",
+        "-  Implemented a secondary function that cached reports accessed within the last 72 hours using database access records, organizing details in a designated table and automating removal of entries linked to expired reports for maintenance",
+      ],
     },
     {
       title: "Aug 2023",
