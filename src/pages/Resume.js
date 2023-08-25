@@ -59,7 +59,7 @@ const Resume = () => {
   return (
     <div className="resume container-sm mt-5">
       <h1>Past Experience</h1>
-      <div className="d-flex justify-content-center align-items-center my-5">
+      <div className="d-flex justify-content-center align-items-center my-2">
         <div
           style={{
             width: "700px",
