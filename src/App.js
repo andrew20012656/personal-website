@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation, Footer } from "./components";
 import { Home, Project, Resume } from "./pages";
 
+const routerBaseName = process.env.PUBLIC_URL;
+
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={routerBaseName}>
         <Navigation />
         <Routes>
           <Route exact path="/" element={<Home />} />
